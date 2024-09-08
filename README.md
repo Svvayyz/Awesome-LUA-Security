@@ -1,6 +1,3 @@
-# FFI-Based-HTTP-Hook
-A FFI Based HTTP Hooking library.
-
 # Sample usage:
 ```lua
 local Callbacks = require("HttpHook.lua")
