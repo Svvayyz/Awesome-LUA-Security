@@ -3,7 +3,7 @@ A FFI Based HTTP Hooking library.
 
 # Sample usage:
 ```lua
-local Callbacks = require("lib/http_hook.lua")
+local Callbacks = require("HttpHook.lua")
 
 Callbacks:Register("Pre-Send", function(Request)
     print(Request.Url) -- it does not support modyfing fields (yet), will do soon :tm:
