@@ -1,5 +1,6 @@
-# Sample usage:
 ```lua
+-- If you're using an embedded version of the HTTP library ur fckd now, regards!
+
 local Callbacks = require("HttpHook.lua")
 
 Callbacks:Register("Pre-Send", function(Request)
